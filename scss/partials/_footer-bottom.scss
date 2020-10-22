@@ -1,0 +1,17 @@
+.footer-bottom {
+  background-color: #1b373c;
+  padding: 24px 30px 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  .footer-bootom-left{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+}
+

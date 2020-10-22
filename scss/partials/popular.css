@@ -1,0 +1,43 @@
+.popular h2 {
+  color: #1e5d69; }
+.popular .button {
+  text-align: center; }
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 105px 55px 100px; }
+
+.tours {
+  padding-right: 75px;
+  margin-bottom: 70px; }
+  .tours article {
+    box-shadow: 0 0 40px #a5a5a5; }
+  .tours h3 {
+    text-align: center;
+    text-transform: uppercase; }
+  .tours p {
+    text-align: center;
+    border-bottom: 2px solid #e1e1e1;
+    margin: 0 40px 0 40px;
+    padding: 15px 0 15px; }
+    .tours p:last-child {
+      border-bottom: none; }
+
+.tours-article {
+  background-color: #656565;
+  color: #fff; }
+  .tours-article h3 {
+    color: #fff; }
+
+button {
+  text-align: center;
+  padding: 25px 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 30px;
+  color: #fff;
+  background-image: linear-gradient(to right, #1e5e6a, #1d626f, #1b6675, #196b7a, #166f80, #147385, #11778a, #0e7b8f, #0c8095, #09849c, #0689a2, #038ea9); }
+
+/*# sourceMappingURL=popular.css.map */

@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: Open sans; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  font-size: 30px;
+  color: #fff; }
+
+h3 {
+  font-size: 18px; }
+
+h1,
+h3 {
+  color: #1e5d69; }
+
+h1,
+h2 {
+  text-transform: uppercase;
+  text-align: center; }
+
+p {
+  font-size: 13px; }
+
+header {
+  background-color: #1e5d69;
+  height: 80px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center; }
+  header .container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto; }
+    header .container .logo {
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase; }
+      header .container .logo img {
+        padding-right: 10px; }
+    header .container nav {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+      header .container nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none; }
+        header .container nav ul li {
+          padding-left: 30px; }
+          header .container nav ul li a {
+            color: #fff;
+            text-decoration: none; }
+  header .search {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px; }
+
+.top-section {
+  padding: 0 30px 0 30px; }
+  .top-section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 65px; }
+  .top-section main {
+    display: flex;
+    justify-content: space-between; }
+  .top-section .paragraf p {
+    margin-top: 30px; }
+  .top-section .paragraf {
+    padding-right: 20px; }
+  .top-section .paragraf,
+  .top-section .top-section-img {
+    margin-top: 80px; }
+
+.adventure .adventure-img {
+  background-image: url("../images/blue-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 776px;
+  display: block; }
+  .adventure .adventure-img h2 {
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 220px; }
+  .adventure .adventure-img .products {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px; }
+  .adventure .adventure-img .product {
+    padding-right: 80px; }
+  .adventure .adventure-img article {
+    background-color: #fff;
+    width: 240px;
+    height: 300px; }
+  .adventure .adventure-img h4 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 65px;
+    color: #1e5d69; }
+  .adventure .adventure-img p {
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center; }
+
+.popular h2 {
+  color: #1e5d69; }
+.popular .button {
+  text-align: center; }
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 105px 55px 100px; }
+
+.tours {
+  padding-right: 75px;
+  margin-bottom: 70px; }
+  .tours article {
+    box-shadow: 0 0 40px #a5a5a5; }
+  .tours h3 {
+    text-align: center;
+    text-transform: uppercase; }
+  .tours p {
+    text-align: center;
+    border-bottom: 2px solid #e1e1e1;
+    margin: 0 40px 0 40px;
+    padding: 15px 0 15px; }
+    .tours p:last-child {
+      border-bottom: none; }
+
+.tours-article {
+  background-color: #656565;
+  color: #fff; }
+  .tours-article h3 {
+    color: #fff; }
+
+button {
+  text-align: center;
+  padding: 25px 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 30px;
+  color: #fff;
+  background-image: linear-gradient(to right, #1e5e6a, #1d626f, #1b6675, #196b7a, #166f80, #147385, #11778a, #0e7b8f, #0c8095, #09849c, #0689a2, #038ea9); }
+
+footer {
+  background-color: #2d4e54;
+  margin-top: 65px; }
+
+.footer-titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 400px 0 400px;
+  padding: 75px 50px 55px 0;
+  color: #fff; }
+
+.soc-net {
+  padding-bottom: 45px; }
+  .soc-net article {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 15px;
+    margin: 0 560px 0 560px; }
+    .soc-net article img {
+      background-color: #0093af;
+      color: #fff;
+      border-radius: 30px;
+      padding: 20px; }
+
+.footer-bottom {
+  background-color: #1b373c;
+  padding: 24px 30px 24px 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff; }
+  .footer-bottom .footer-bootom-left {
+    display: flex;
+    justify-content: space-between; }
+  .footer-bottom h4 {
+    text-transform: uppercase;
+    padding-left: 20px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+footer {
+  background-color: #2d4e54;
+  margin-top: 65px;
+}
+.footer-titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 400px 0 400px;
+  padding: 75px 50px 55px 0;
+  color: #fff;
+}
+.soc-net {
+  padding-bottom: 45px;
+  article {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 15px;
+  margin: 0 560px 0 560px;
+  img {
+    background-color: #0093af;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+  }
+ }
+}
